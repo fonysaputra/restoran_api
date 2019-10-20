@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 
- mongoose.connect("mongodb+srv://restoran:restoran1234567890@cluster0-qg4r1.mongodb.net/test?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true, useCreateIndex: true });
+ mongoose.connect("mongodb://localhost/restoran",{useNewUrlParser: true,useUnifiedTopology: true, useCreateIndex: true });
 
 var db = mongoose.connection;
 
